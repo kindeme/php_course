@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD Form Design</title>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+
+<?php 
+include 'config.php';
+include 'includes/header.php';
+?>
+
+
 <body class="bg-dark">
     <div class="container">
         <div class="row p-2">
@@ -34,12 +32,17 @@
                 <input type="submit" name="submit" value="Insert" class="btn btn-primary btn-block">
             </div>
             <div class="form-group text-center">
-                <a href="#" class="text-dark lead">View Records</a>
+                <a href="view.php" class="text-dark lead">View Records</a>
+            </div>
+            <div class="form-group text-center">
+                <p class="lead"><?php echo $result; ?></p>
+
             </div>
         </form>
         </div>
      </div>
 </div>
+
 
 </body>
 </html>
