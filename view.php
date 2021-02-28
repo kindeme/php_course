@@ -7,7 +7,7 @@ include 'includes/header.php';
         <div class="col-lg-10 offset-lg-1 mt-3">
             <table class="table table-striped table-bordered bg-light">
                 <thead>
-                    <tr class="bg-dark text-light text-light">
+                    <tr class="bg-dark text-light">
                         <th>ID</th>
                         <th>Name</th>
                         <th>Email</th>
